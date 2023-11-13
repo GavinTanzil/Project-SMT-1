@@ -45,6 +45,9 @@ def get_response(message: str) -> str:
     if p_message == 'igs':
         return 'here is the result that i have searched up for you : https://www.ignatiusglobal.sch.id'
 
+    if p_message == '!Google youtube':
+        return 'https://www.youtube.com/'
+
     return 'I dont know what you said my friend! Either you type "!help" or you can just find it in : https://www.google.com'
 
 
